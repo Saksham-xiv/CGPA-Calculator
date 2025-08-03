@@ -1,0 +1,46 @@
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore node_modules folder (if you use Node.js)
+node_modules/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore build folders
+/dist
+/build
+/out
+
+# Ignore IDE/editor folders and files
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.sdf
+
+# Ignore Python cache files (if applicable)
+__pycache__/
+*.py[cod]
+
+# Ignore compiled files
+*.class
+*.exe
+*.dll
+*.so
+*.o
+*.obj
+
+# Ignore environment variable files (if applicable)
+.env
+
+# Ignore Mac system files
+.AppleDouble
+.LSOverride
+
+# Ignore other unwanted file types
+*.bak
+*.swp
